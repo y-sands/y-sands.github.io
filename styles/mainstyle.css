@@ -105,17 +105,15 @@ footer {
     grid-area: footer;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 720px) {
     .container {
-        grid-template-columns: 1fr;
-        grid-template-rows: 70px 39px 1fr 0.5fr 40px;
         grid-template-areas: 
         "subcont";
     }
 
     .sub-container {
         grid-template-columns: 1fr;
-        grid-template-rows: 70px 39px 57vh 11vh 40px;
+        grid-template-rows: 70px 39px 58vh 11vh 40px;
         grid-template-areas: 
         "header"
         "nav"
