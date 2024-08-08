@@ -20,7 +20,7 @@ body {
         ". subcont subcont subcont .";
 
     background-color: bisque;
-    background-size: cover;
+    background-size: 100%;
 }
 
 .sub-container {
