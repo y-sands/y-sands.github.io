@@ -1,0 +1,21 @@
+To do:
+> Make the footer text a js object so the update date can synchronise between pages. 
+> have got rid of "gallery" link for now as i'm unsure what I'll put in it and I want to 
+focus on making the website functional first. 
+
+Volunteering 
+> logos of orgs I've volunteered for
+> description of diff volunteering things ive done
+> piccies of volunteering things 
+
+About Me 
+> have linkedin link and other contact deets etc. 
+> describe what im interested in and what work experience, acaedmic history and interests
+I have
+> have a nice selfie 
+
+Academic work
+> dissertation description and then either a link to it or say "email me if u want a full copy"
+
+Blog ideas
+> coppicing! 
