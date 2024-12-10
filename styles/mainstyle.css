@@ -1,3 +1,4 @@
+/*layout with main content div and aside (contact details)*/
 /*overall grid styling*/
 
 body {
@@ -62,6 +63,9 @@ nav {
     background-color: rgb(39, 109, 201);
 
     grid-area: nav;
+    a:hover {
+        text-decoration: none;
+}
 }
 
 .content {
@@ -71,7 +75,7 @@ nav {
     display: grid;
     grid-template: 1fr / 1fr 1fr 1fr;
     grid-template-areas: 
-    "main main main"; 
+    "main main aside"; 
 
     gap: 10px;
     box-sizing: border-box;
@@ -81,11 +85,20 @@ nav {
 
 main {
     grid-row: 3 / span 1;
-    grid-column: 2 / span 3; 
+    grid-column: 2 / span 2; 
 
     background-color: rgb(228, 255, 178);
 
     grid-area: main;
+}
+
+aside {
+    grid-row: 3 / span 1;
+    grid-column: 3 / span 1; 
+
+    background-color: rgb(163, 246, 202);
+    
+    grid-area: aside; 
 }
 
 footer {
@@ -95,6 +108,21 @@ footer {
     background-color: rgb(113, 192, 53);
 
     grid-area: footer;
+}
+
+img.profile {
+    position: relative;
+    max-height: 270px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    float: left;
+
+    outline-color: #dbe24575;
+    outline-style: ridge;
+    outline-width: 4px;
+    outline-offset: 0;
 }
 
 @media all and (max-width: 550px) {
@@ -107,11 +135,12 @@ footer {
     .sub-container {
         width: 100vw;
         grid-template-columns: 1fr;
-        grid-template-rows: 70px 39px 58vh 40px;
+        grid-template-rows: 80px 39px 52vh 16vh 40px;
         grid-template-areas: 
         "header"
         "nav"
         "main"
+        "aside"
         "footer";
     }
 
@@ -128,18 +157,29 @@ a {
 }
 
 a:hover {
-    color: rgb(130, 173, 44)
+    color: rgb(130, 173, 44);
+    text-decoration: underline;
 }
 
 /*border decoration and padding*/
-header, nav, main, aside, footer{  
-    padding-left:10px;
-    padding-right: 5px;
-    padding-bottom: 5px;
+header, nav, footer, main, aside{  
     outline-color: #dbe24575;
     outline-style: ridge;
     outline-width: 4px;
     outline-offset: 0;
+}
+
+header, nav, footer{  
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+main, aside{  
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 2px;
 }
 
 footer{
@@ -147,9 +187,14 @@ footer{
     padding-top: 13px;  
 }
 
-/*text alignment and word breaks*/
+/*text alignment, word breaks, headers*/
 h1{
     text-align: center;
+}
+
+h3{
+    font-size: large;
+    font-size: x;
 }
 
 .email{

@@ -1,5 +1,6 @@
 To do:
 > Make the footer text a js object so the update date can synchronise between pages. 
+> Also do something so the header, nav box and contact box also stay the same btwn pages even if changed. 
 > have got rid of "gallery" link for now as i'm unsure what I'll put in it and I want to 
 focus on making the website functional first. 
 
@@ -9,6 +10,9 @@ Volunteering
 > piccies of volunteering things 
 
 About Me 
+> note: currently the home page and about me page are the same, and the about
+nav links to the home page. If I want to in future add more to the about
+or change the homepage to have more of a mix of stuff going on, I can reinstate it.
 > have linkedin link and other contact deets etc. 
 > describe what im interested in and what work experience, acaedmic history and interests
 I have
@@ -19,3 +23,16 @@ Academic work
 
 Blog ideas
 > coppicing! 
+
+Font
+> maybe have a different, more quirky font for the header, titles etc?
+> not sure how to make h2 look better
+
+Contact box
+> once you have some photos on the site, you could have a little picture frame with changing images
+ on there of various conservation stuff etc. 
+> maybe do quirky little symbols with an email next to email, linkedin logo next to that link, 
+and a little tree by the bit about finding me in the woods.
+
+Mobile optimisation
+> fix the viewport issue where on mobile it extends past the viewport screen.

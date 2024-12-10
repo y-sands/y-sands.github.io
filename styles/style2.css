@@ -1,3 +1,4 @@
+/*layout with only main content div (no aside for contact details)*/
 /*overall grid styling*/
 
 body {
@@ -71,7 +72,7 @@ nav {
     display: grid;
     grid-template: 1fr / 1fr 1fr 1fr;
     grid-template-areas: 
-    "main-left main-left aside"; 
+    "main main main"; 
 
     gap: 10px;
     box-sizing: border-box;
@@ -79,22 +80,13 @@ nav {
     grid-area: content;
 }
 
-main-left {
+main {
     grid-row: 3 / span 1;
-    grid-column: 2 / span 2; 
+    grid-column: 2 / span 3; 
 
     background-color: rgb(228, 255, 178);
 
-    grid-area: main-left;
-}
-
-aside {
-    grid-row: 3 / span 1;
-    grid-column: 3 / span 1; 
-
-    background-color: rgb(163, 246, 202);
-    
-    grid-area: aside; 
+    grid-area: main;
 }
 
 footer {
@@ -116,12 +108,11 @@ footer {
     .sub-container {
         width: 100vw;
         grid-template-columns: 1fr;
-        grid-template-rows: 70px 39px 58vh 11vh 40px;
+        grid-template-rows: 70px 39px 58vh 40px;
         grid-template-areas: 
         "header"
         "nav"
-        "main-left"
-        "aside"
+        "main"
         "footer";
     }
 
@@ -142,7 +133,7 @@ a:hover {
 }
 
 /*border decoration and padding*/
-header, nav, main-left, aside, footer{  
+header, nav, main, aside, footer{  
     padding-left:10px;
     padding-right: 5px;
     padding-bottom: 5px;
