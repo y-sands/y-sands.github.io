@@ -125,7 +125,7 @@ img.profile {
     outline-offset: 0;
 }
 
-@media all and (max-width: 550px) {
+@media all and (max-width: 400px) {
     .container {
         width: 100vw;
         grid-template-areas: 
@@ -133,7 +133,7 @@ img.profile {
     }
 
     .sub-container {
-        width: 90vw;
+        width: 100vw;
         grid-template-columns: 1fr;
         grid-template-rows: 80px 39px 52vh 16vh 40px;
         grid-template-areas: 
