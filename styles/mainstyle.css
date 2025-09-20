@@ -3,6 +3,7 @@
 
 body {
     margin: 0;
+    background-color: bisque;
 }
 
 .container { 
@@ -19,8 +20,6 @@ body {
         ". subcont subcont subcont ."
         ". subcont subcont subcont ."
         ". subcont subcont subcont .";
-
-    background-color: bisque;
     background-size: 100%;
 }
 
@@ -86,7 +85,7 @@ nav {
 main {
     grid-row: 3 / span 1;
     grid-column: 2 / span 2; 
-
+    
     background-color: rgb(228, 255, 178);
 
     grid-area: main;
@@ -110,6 +109,20 @@ footer {
     grid-area: footer;
 }
 
+img.general {
+    position: relative;
+    max-height: 270px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+
+    outline-color: #dbe24575;
+    outline-style: ridge;
+    outline-width: 4px;
+    outline-offset: 0;
+}
+
 img.profile {
     position: relative;
     max-height: 270px;
@@ -126,16 +139,17 @@ img.profile {
 }
 
 @media all and (max-width: 479px) {
-    .container {
-        width: 100vw;
-        grid-template-areas: 
-        "subcont";
-    }
+  .container {
+    max-width: 100vw;
+    height: auto;
+    grid-template-areas: "subcont";
+
+  }
 
     .sub-container {
         width: 100vw;
         grid-template-columns: 1fr;
-        grid-template-rows: 80px 39px 52vh 16vh 40px;
+        grid-template-rows: 80px 39px auto auto 40px;
         grid-template-areas: 
         "header"
         "nav"
@@ -162,6 +176,9 @@ a:hover {
 }
 
 /*border decoration and padding*/
+p{
+    line-height: 1.3em;
+}
 header, nav, footer, main, aside{  
     outline-color: #dbe24575;
     outline-style: ridge;
@@ -204,7 +221,6 @@ h3{
 .long{
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden;
 }
 
 /*navbar*/

@@ -36,3 +36,11 @@ and a little tree by the bit about finding me in the woods.
 
 Mobile optimisation
 > fix the viewport issue where on mobile it extends past the viewport screen.
+
+
+@media all and (max-width: 479px) {
+    .container {
+        width: 100vw;
+        grid-template-areas: 
+        "subcont";
+    }
