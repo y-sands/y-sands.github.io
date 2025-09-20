@@ -3,6 +3,7 @@
 
 body {
     margin: 0;
+    background-color: bisque;
 }
 
 .container { 
@@ -19,8 +20,6 @@ body {
         ". subcont subcont subcont ."
         ". subcont subcont subcont ."
         ". subcont subcont subcont .";
-
-    background-color: bisque;
     background-size: 100%;
 }
 
@@ -28,7 +27,7 @@ body {
     display: grid;
     max-width: 815px;
     
-    grid-template: 70px 39px 1fr 1fr 40px /repeat(3, auto);
+    grid-template: 70px 39px 1fr 1fr auto 40px /repeat(3, auto);
     grid-template-areas: 
         "header header header"
         "nav nav nav"
@@ -98,17 +97,32 @@ footer {
     grid-area: footer;
 }
 
-@media all and (max-width: 550px) {
+img.general {
+    display: block;
+    position: relative;
+    max-height: 270px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+
+    outline-color: #dbe24575;
+    outline-style: ridge;
+    outline-width: 4px;
+    outline-offset: 0;
+}
+
+@media all and (max-width: 479px) {
     .container {
         width: 100vw;
-        grid-template-areas: 
-        "subcont";
+        height: auto;
+        grid-template-areas: "subcont";
     }
 
     .sub-container {
         width: 100vw;
         grid-template-columns: 1fr;
-        grid-template-rows: 70px 39px 58vh 40px;
+        grid-template-rows: 80px 39px auto 40px;
         grid-template-areas: 
         "header"
         "nav"
@@ -124,18 +138,20 @@ footer {
 /* smaller-scale styling */
 /*link formatting*/
 a {
-    color:black;
+    color:#7fa82c;
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(130, 173, 44)
+    color: #c99233;
+    text-decoration: underline;
 }
 
 /*border decoration and padding*/
-header, nav, main, aside, footer{  
-    padding-left:10px;
-    padding-right: 5px;
+
+header, nav, main, footer, aside{  
+    padding-left:21px;
+    padding-right: 20px;
     padding-bottom: 5px;
     outline-color: #dbe24575;
     outline-style: ridge;
@@ -148,9 +164,26 @@ footer{
     padding-top: 13px;  
 }
 
-/*text alignment and word breaks*/
+/*text styling, alignment and word breaks*/
+p{
+    line-height: 1.4em;
+}
+
 h1{
     text-align: center;
+}
+
+h3{
+    font-size: large;
+    font-size: x;
+    text-decoration: underline;
+}
+
+.date, figcaption{
+    display: block;
+    margin-top: 0;
+    font-size: 0.9em;
+    font-style: italic;
 }
 
 .email{

@@ -110,12 +110,13 @@ footer {
 }
 
 img.general {
+    display: block;
     position: relative;
     max-height: 270px;
     margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
 
     outline-color: #dbe24575;
     outline-style: ridge;
@@ -166,19 +167,17 @@ img.profile {
 /* smaller-scale styling */
 /*link formatting*/
 a {
-    color:black;
+    color:#7fa82c;
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(130, 173, 44);
+    color: #c99233;
     text-decoration: underline;
 }
 
 /*border decoration and padding*/
-p{
-    line-height: 1.3em;
-}
+
 header, nav, footer, main, aside{  
     outline-color: #dbe24575;
     outline-style: ridge;
@@ -193,8 +192,8 @@ header, nav, footer{
 }
 
 main, aside{  
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 19px;
     padding-bottom: 5px;
     padding-top: 2px;
 }
@@ -205,6 +204,10 @@ footer{
 }
 
 /*text alignment, word breaks, headers*/
+p{
+    line-height: 1.4em;
+}
+
 h1{
     text-align: center;
 }
@@ -212,6 +215,14 @@ h1{
 h3{
     font-size: large;
     font-size: x;
+    text-decoration: underline;
+}
+
+.date, figcaption{
+    display: block;
+    margin-top: 0;
+    font-size: 0.9em;
+    font-style: italic;
 }
 
 .email{
