@@ -125,7 +125,7 @@ img.profile {
     outline-offset: 0;
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 600px) {
     .container {
         width: 100vw;
         grid-template-areas: 
