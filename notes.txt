@@ -5,9 +5,10 @@ To do:
 focus on making the website functional first. 
 
 Volunteering 
-> logos of orgs I've volunteered for
+> logos of orgs I've volunteered for (side bar?)
 > description of diff volunteering things ive done
 > piccies of volunteering things 
+> add 'read more's perhaps, and maybe photos/thematic tags that link to different entries in the 'blog'
 
 About Me 
 > note: currently the home page and about me page are the same, and the about
@@ -33,14 +34,7 @@ Contact box
  on there of various conservation stuff etc. 
 > maybe do quirky little symbols with an email next to email, linkedin logo next to that link, 
 and a little tree by the bit about finding me in the woods.
+> possibly see if I could include it on more text heavy pages like volunteering by somehow wrapping the main box around it so it doesn't waste space all the way down the screen.
 
 Mobile optimisation
 > fix the viewport issue where on mobile it extends past the viewport screen.
-
-
-@media all and (max-width: 479px) {
-    .container {
-        width: 100vw;
-        grid-template-areas: 
-        "subcont";
-    }
