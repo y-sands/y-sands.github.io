@@ -1,14 +1,16 @@
 To do:
 > Make the footer text a js object so the update date can synchronise between pages. 
 > Also do something so the header, nav box and contact box also stay the same btwn pages even if changed. 
-> have got rid of "gallery" link for now as i'm unsure what I'll put in it and I want to 
-focus on making the website functional first. 
-
+> Make a nature pics gallery
+> Add a work experience page
+> make a nice header image and find a good background image
+> add services page (i.e. running a nature walk, hire me pls etc)
 Volunteering 
 > logos of orgs I've volunteered for (side bar?)
 > description of diff volunteering things ive done
 > piccies of volunteering things 
-> add 'read more's perhaps, and maybe photos/thematic tags that link to different entries in the 'blog'
+> add 'read more's perhaps, or have each headline link to different posts? and maybe photos/thematic tags that link to different entries in the 'blog'
+> make images clickable so that they automatically open in a new tab (or go more full screen) but ideally with stylised background
 
 About Me 
 > note: currently the home page and about me page are the same, and the about
