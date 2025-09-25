@@ -149,7 +149,7 @@ img.profile {
 
     .sub-container {
         width: 100vw;
-        grid-template-columns: 1fr;
+        grid-template-columns: 0.9fr;
         grid-template-rows: 80px 39px auto auto 40px;
         grid-template-areas: 
         "header"
