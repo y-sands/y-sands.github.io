@@ -211,6 +211,11 @@ h3{
     font-style: italic;
 }
 
+figcaption{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
 .email{
     word-break: break-all;
 }
