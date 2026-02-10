@@ -5,12 +5,14 @@ To do:
 > Add a work experience page
 > make a nice header image and find a good background image
 > add services page (i.e. running a nature walk, hire me pls etc)
+
 Volunteering 
 > logos of orgs I've volunteered for (side bar?)
 > description of diff volunteering things ive done
 > piccies of volunteering things 
 > add 'read more's perhaps, or have each headline link to different posts? and maybe photos/thematic tags that link to different entries in the 'blog'
 > make images clickable so that they automatically open in a new tab (or go more full screen) but ideally with stylised background
+> separate TCVO 'diary' page (those cool tabs?)
 
 About Me 
 > note: currently the home page and about me page are the same, and the about
@@ -18,14 +20,11 @@ nav links to the home page. If I want to in future add more to the about
 or change the homepage to have more of a mix of stuff going on, I can reinstate it.
 > have linkedin link and other contact deets etc. 
 > describe what im interested in and what work experience, acaedmic history and interests
-I have
-> have a nice selfie 
 
 Academic work
-> dissertation description and then either a link to it or say "email me if u want a full copy"
-> embed molinia ppt: https://support.microsoft.com/en-us/office/embed-a-presentation-in-a-web-page-or-blog-19668a1d-2299-4af3-91e1-ae57af723a60 
+> add in download links not just the embeds.
 
-Blog ideas
+Blog
 > coppicing! 
 
 Font
@@ -41,3 +40,21 @@ and a little tree by the bit about finding me in the woods.
 
 Mobile optimisation
 > fix the viewport issue where on mobile it extends past the viewport screen.
+
+Coppice page 
+
+Resources
+> split this up to make it less overwhelming and more navigable. 
+ - e.g. do "read more" buttons OR those cool 'tabs' 
+ - add some photos so it's less wall of text vibe
+> Books - a pivot table with books i've read and reccommend. 
+ - have started a spreadsheet with this 
+
+Memberships 
+> Put some badges/notes/logos of the organisations you're a member of >:D 
+ - NCFed
+ - the LWA (FLAME and OOTL)
+
+################################################################################################################
+ COMPLETED
+> embed molinia ppt: https://support.microsoft.com/en-us/office/embed-a-presentation-in-a-web-page-or-blog-19668a1d-2299-4af3-91e1-ae57af723a60 

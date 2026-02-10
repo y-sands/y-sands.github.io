@@ -7,6 +7,10 @@
   font-family: MyLeaf; /* set name */
   src: url(/assets/fonts/my-leaf.regular.otf); /* url of the font */
 }
+@font-face {
+  font-family: trans;
+  src: url(/assets/fonts/trans.ttf);
+}
 
 body {
     margin: 0;
@@ -236,6 +240,12 @@ h2{
 h3{
     font-size: large;
     text-decoration: underline;
+}
+
+h4{
+    color: rgba(230, 252, 222, 0.856);
+    font-family: trans;
+    font-size: 70px; 
 }
 
 .date, figcaption{
