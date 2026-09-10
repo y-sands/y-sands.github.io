@@ -6,6 +6,19 @@ To do:
 > make a nice header image and find a good background image
 > add services page (i.e. running a nature walk, hire me pls etc)
 
+CV 
+> maybe have simple div boxes either coloured bits stretching across or
+> as little columns like here: https://thomasgultzow.com/ 
+> basically something to add visual interest, like these sites:
+https://www.samunderwood.co.uk/about/ 
+https://www.kaleighmoore.com/home#about
+https://cynthiakimola.com/about-cynthia-kimola/
+> even just little cards like here: https://matouse.github.io/cv/ 
+
+services
+> 
+
+
 Volunteering 
 > logos of orgs I've volunteered for (side bar?)
 > description of diff volunteering things ive done
@@ -55,6 +68,8 @@ Memberships
  - NCFed
  - the LWA (FLAME and OOTL)
 
+Other:
+-https://leafletjs.com/ 
 ################################################################################################################
  COMPLETED
 > embed molinia ppt: https://support.microsoft.com/en-us/office/embed-a-presentation-in-a-web-page-or-blog-19668a1d-2299-4af3-91e1-ae57af723a60 

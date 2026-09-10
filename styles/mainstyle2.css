@@ -60,6 +60,7 @@ body {
     grid-area: subcont;
 
 }
+
 header {
     grid-row: 1 / span 1;
     grid-column: 2 / span 3;
@@ -96,7 +97,8 @@ nav {
     display: grid;
     grid-template: 1fr / 1fr 1fr 1fr;
     grid-template-areas: 
-    "main main aside"; 
+    "main main aside"
+    "column-box column-box aside"; 
 
     gap: 10px;
     box-sizing: border-box;
@@ -114,6 +116,21 @@ main {
     -webkit-backdrop-filter: blur(20px);
 
     grid-area: main;
+}
+
+.column-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: span;
+}
+
+.column-box div {
+    border-radius: 6px;
+    background: rgba(68, 255, 0, 0.203);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    margin: 5px;
+    padding: 0px 10px 0px 10px;
 }
 
 aside {
@@ -172,6 +189,13 @@ img.profile {
     outline-offset: 0;
 }
 
+img.logo {
+    position: relative;
+    max-height: 80px;
+    max-width: 200px;
+    margin: 5px 5px 5px 5px;    
+}
+
 /* smaller-scale styling */
 /*link formatting*/
 a {
@@ -186,13 +210,20 @@ a:hover {
 
 /*border decoration and padding*/
 
-header, nav, footer, main, aside{  
+header, nav, footer, main, .column-box div, aside{  
     padding-left: 21px;
     padding-right: 20px;
-    outline-color: rgba(129, 185, 237, 0.711);
     outline-style: ridge;
     outline-width: 4px;
     outline-offset: 0;
+}
+
+header, nav, footer, main, .column-box div, aside{
+    outline-color: rgba(129, 185, 237, 0.711);
+}
+
+.column-box div{
+    outline-color: rgba(105, 238, 138, 0.711);
 }
 
 header{
@@ -234,7 +265,7 @@ h1::selection{
 h2{
     font-size: x-large;
     font-weight: 800;
-        text-align: center;
+    text-align: center;
 }
 
 h3{
@@ -242,10 +273,19 @@ h3{
     text-decoration: underline;
 }
 
+.column-box div h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
 h4{
     color: rgba(230, 252, 222, 0.856);
     font-family: trans;
     font-size: 70px; 
+}
+
+ul {
+    padding-left: 23px ;
 }
 
 .date, figcaption{
